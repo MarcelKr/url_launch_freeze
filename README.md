@@ -1,6 +1,8 @@
 # url_launch_freeze
 
-Minimal example project to demonstrate url_launch freeze.
+Minimal example project to demonstrate url_launch freeze. [Find a Video showing the behavior here](./url_launch_freeze.mp4).
+
+The freeze seems only to happen when having gesture navigation enabled and doing a swipe between for instance the opened facebook app and the example app. When opening the app switcher fully and then switching back by tapping the example app, it doesn't show up it seems.
 
 ## flutter doctor
 
