@@ -1,16 +1,36 @@
 # url_launch_freeze
 
-A new Flutter project.
+Minimal example project to demonstrate url_launch freeze.
 
-## Getting Started
+## flutter doctor
 
-This project is a starting point for a Flutter application.
+```
+$ flutter doctor -v
+[✓] Flutter (Channel stable, 2.5.3, on Arch Linux 5.15.2-arch1-1, locale de_DE.UTF-8)
+    • Flutter version 2.5.3 at /home/marcel/devtools/flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 18116933e7 (vor 5 Wochen), 2021-10-15 10:46:35 -0700
+    • Engine revision d3ea636dc5
+    • Dart version 2.14.4
 
-A few resources to get you started if this is your first Flutter project:
+[✓] Android toolchain - develop for Android devices (Android SDK version 31.0.0)
+    • Android SDK at /home/marcel/Android/Sdk
+    • Platform android-31, build-tools 31.0.0
+    • Java binary at: /opt/android-studio/jre/bin/java
+    • Java version OpenJDK Runtime Environment (build 11.0.10+0-b96-7249189)
+    • All Android licenses accepted.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+[✗] Chrome - develop for the web (Cannot find Chrome executable at google-chrome)
+    ! Cannot find Chrome. Try setting CHROME_EXECUTABLE to a Chrome executable.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[✓] Android Studio (version 2020.3)
+    • Android Studio at /opt/android-studio
+    • Flutter plugin version 62.0.1
+    • Dart plugin version 203.8452
+    • Java version OpenJDK Runtime Environment (build 11.0.10+0-b96-7249189)
+
+[✓] Connected device (1 available)
+    • Pixel 3a (mobile) • 94WAY0TGTW • android-arm64 • Android 12 (API 31)
+
+! Doctor found issues in 1 category.
+```
